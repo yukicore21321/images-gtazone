@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <pattern id="dots" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="0" cy="0" r="0.7" fill="#5a6a62" opacity="0.95"/>
+      <circle cx="8" cy="0" r="0.7" fill="#5a6a62" opacity="0.95"/>
+      <circle cx="0" cy="8" r="0.7" fill="#5a6a62" opacity="0.95"/>
+      <circle cx="8" cy="8" r="0.7" fill="#5a6a62" opacity="0.95"/>
+      <g opacity="0.4" fill="none" stroke="#5a6a62" stroke-width="0.35">
+        <line x1="4" y1="2.5" x2="4" y2="5.5"/>
+        <line x1="2.5" y1="4" x2="5.5" y2="4"/>
+      </g>
+      <g opacity="0.4" fill="none" stroke="#5a6a62" stroke-width="0.35">
+        <line x1="12" y1="2.5" x2="12" y2="5.5"/>
+        <line x1="10.5" y1="4" x2="13.5" y2="4"/>
+      </g>
+      <g opacity="0.4" fill="none" stroke="#5a6a62" stroke-width="0.35">
+        <line x1="4" y1="10.5" x2="4" y2="13.5"/>
+        <line x1="2.5" y1="12" x2="5.5" y2="12"/>
+      </g>
+      <g opacity="0.4" fill="none" stroke="#5a6a62" stroke-width="0.35">
+        <line x1="12" y1="10.5" x2="12" y2="13.5"/>
+        <line x1="10.5" y1="12" x2="13.5" y2="12"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#dots)"/>
+</svg>
